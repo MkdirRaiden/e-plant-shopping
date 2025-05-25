@@ -64,6 +64,7 @@ body {
     flex: 0 0 calc(33.33% - 20px); /* Adjust width for 3 cards per row with 20px gap */
     max-width: calc(26.33% - 20px); /* Adjust max-width for 3 cards per row with 20px gap */
     margin-bottom: 20px;
+    min-width: 18rem;
     padding: 20px;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -76,8 +77,9 @@ body {
 
 /* Pseudo-classes - Hover effect on product button */
 .product-card:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s ease-in-out;
+    /* transform: scale(.99); */
+    box-shadow: 1px 1px 4px gray;
+    transition: transform 0.25s ease;
     z-index: 1;
 }
 

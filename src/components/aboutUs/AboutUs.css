@@ -1,0 +1,18 @@
+.about-us-container {
+  /* border: 2px solid green; */
+    width: 45vw;
+    font-size: 18px;
+  }
+  
+  .about-us-description {
+    font-size: 1.75rem !important;
+    color: #666;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .about-us-content {
+    font-size: 1.25rem !important;
+    margin-bottom: 20px;
+    color: blue;
+  }
